@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fantasyfootball"
+version = "0.1.0"
+description = ""
+authors = ["aleha2001 <alehak2001@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["all"], version = "^0.105.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
