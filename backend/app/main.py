@@ -8,4 +8,4 @@ if __name__ == "__main__":
 
 
 # to run
-#uvicorn main:app --reload
+# uvicorn main:app --reload
